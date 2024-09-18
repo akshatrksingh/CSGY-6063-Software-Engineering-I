@@ -1,0 +1,339 @@
+<html></html>
+    <style>
+        body {
+            font-family: "Georgia";
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 20px;
+            padding: 20px;
+        }
+        .header .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .section h2 {
+            width: 100%;
+            margin: auto;
+            margin-left: 20px;
+            padding: 20px;
+        }
+        .section p {
+            width: 100%;
+            margin-left: 20px;
+            padding: 20px;
+        }
+        .section hr {
+            margin: 0;
+            margin-left: 40px;
+            width: 90%;
+        }
+        table {
+            margin: 20px;
+            margin-left: 50px;
+            width: 90%;
+            border-collapse: collapse;
+        }
+        th {  
+            border: 1px solid #000000;
+            text-align: center;
+        }
+        td {
+            border: 1px solid #000000;
+            height: 50px;
+            text-align: center;
+        }
+        .section .resume-item {
+            width: 100%;
+            margin: 20px;
+            margin-top: 0;
+            padding: 20px;
+            margin-bottom: -20px;
+        }
+        .section .resume-item li{
+            margin-top: 0px;
+            margin-left: 20px;
+            width: 100%;
+            padding: 5px;
+        }
+        .section .resume-item .resume-subitem{
+            font-weight: bold;
+            width: 100%;
+            padding: 5px;
+        }
+        .section .resume-item .position-date{
+            display: flex;
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-top: -20px;
+            margin-bottom: -20px;
+            width: 160%;
+        }
+
+    </style>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>
+                    Akshat Singh
+                </h1>
+                <div class="row">
+                    <p>
+                        University: New York University
+                    </p>
+                    <p>
+                        Phone: (347) 222-8744
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        Degree: MS in Computer Science
+                    </p>
+                    <p>
+                        Email: as20255@nyu.edu
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>
+                Education
+            </h2>
+            <hr>
+            <table>
+                <tr>
+                  <th>Degree</th>
+                  <th>Institute</th> 
+                  <th>CGPA</th>
+                  <th>Date</th>
+                </tr>
+                <tr>
+                    <td>M.S. Computer Science</td>
+                    <td>New York University</td>
+                    <td>-</td>
+                    <td>Sep 2024 - May 2026</td>
+                  </tr>
+                  <tr>
+                    <td>M.Sc. Mathematics</td>
+                    <td>BITS Pilani - Hyderabad Campus</td>
+                    <td>8.61 / 10</td>
+                    <td>Aug 2019 - Jun 2024</td>
+                  </tr>
+                  <tr>
+                    <td>B.E. Electronics & Communication</td>
+                    <td>BITS Pilani - Hyderabad Campus</td>
+                    <td>8.61 / 10</td>
+                    <td>Aug 2019 - Jun 2024</td>
+                  </tr>
+              </table>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <hr>
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    Qure.ai
+                </div>
+                <div class="position-date">
+                    <p>
+                        <em>
+                        AI Scientist Intern
+                        </em>
+                    </p>
+                    <p>
+                        Jan 2024 - Jun 2024
+                    </p>
+                </div>
+                <div class="date">
+                </div>
+                <li>Developed deep learning solutions for medical imaging, specializing in chest CT scan analysis using U-Net-based models.</li>
+                <li>Refined and enhanced the codebase for training 2D and 3D segmentation models with Python and PyTorch, achieving improved lung segmentation accuracy.</li>
+            </div>
+
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    Amazon
+                </div>
+                <div class="position-date">
+                    <p>
+                        <em>
+                        Software Development Engineer Intern
+                        </em>
+                    </p>
+                    <p>
+                        Jul 2023 - Dec 2023
+                    </p>
+                </div>
+                <div class="date">
+                </div>
+                <li>Contributed to the Shiptrack Team that manages services that track package movements in Amazon’s transportation network.</li>
+                <li>Developed solutions using Java, React, Typescript, and AWS services (S3, DynamoDB, SQS, API Gateway, Lambda).</li>
+                <li>Led DF Campaign Migration by setting up new SQS infrastructure, developing a message processor in Java, and unit testing to ensure a smooth migration to production.</li>
+                <li>Created an online portal for submitting TPS requests with an approval workflow, improving team collaboration and efficiency.</li>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Publications</h2>
+            <hr>
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    Knowledge-based System for Three-way Decision-making under Uncertainty
+                </div>
+                <div class="position-date">
+                    <p>
+                        <em>
+                            Guided by Dr. Jabez Christopher, BITS Pilani Hyderabad Campus
+                        </em>
+                    </p>
+                    <p>
+                        Publication Date: May 8, 2023
+                    </p>
+                </div>
+                <div class="date">
+                </div>
+                <li>
+                    Designed a three-way knowledge-based system to categorize alternatives into acceptance, non-commitment, and rejection sets.
+                </li>
+                <li>
+                    Assessed the proposed method by benchmarking it against traditional machine learning models using 10 UCI repository datasets.
+                </li>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <hr>
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    ANN-based Prediction of Power Generation by Wave Energy Converter Devices
+                </div>
+                <div class="position-date">
+                    <p>
+                        <em>
+                        Guided by Dr. Santanu Koley, BITS Pilani Hyderabad Campus
+                        </em>
+                    </p>
+                    <p>
+                        Jan 2023 - May 2023
+                    </p>
+                </div>
+                <div class="date">
+                </div>
+                <ul>
+                    <li>Created an Artificial Neural Network model with a learning rate scheduler to forecast power generation by Wave Energy Converter (WEC) devices.</li>
+                    <li>Achieved an R2 score of 0.9968, demonstrating the model’s high precision in predicting power generation.</li>
+                </ul>
+            </div>
+        
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    Deep Learning-based Object Detection for Road Safety
+                </div>
+                <div class="position-date">
+                    <p>
+                        <em>
+                        Guided by Dr. Ponnalagu R. N., BITS Pilani Hyderabad Campus
+                        </em>
+                    </p>
+                    <p>
+                        Aug 2022 - Dec 2022
+                    </p>
+                </div>
+                <div class="date">
+                </div>
+                <ul>
+                    <li>Executed multiclass classification to detect road hazards, including potholes, humps, vehicles, and pedestrians.</li>
+                    <li>Compiled a dataset of 3,319 images from public sources, manually annotating them with Roboflow.</li>
+                    <li>Trained YOLOv6 (S, T, N) models over 150 epochs to detect hazards, performing a comparative analysis of model performance.</li>
+                </ul>
+            </div>
+        
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    Deep Learning-based Heart Sound Segmentation - Deep Learning, Audio Processing
+                </div>
+                <div class="position-date">
+                    <p>
+                        <em>
+                        Guided by Dr. Rajesh Kumar Tripathy, BITS Pilani Hyderabad Campus
+                        </em>
+                    </p>
+                    <p>
+                        Aug 2022 - Dec 2022
+                    </p>
+                </div>
+                <div class="date">
+                </div>
+                <ul>
+                    <li>Investigated a dataset of 200 heart sound recordings to segment S1 and S2 heart sounds using deep learning approaches.</li>
+                    <li>Generated frequency domain plots and created segmentation masks using Sefexa to pinpoint S1 and S2 sound locations.</li>
+                    <li>Built and fine-tuned a U-Net model for heart sound segmentation, achieving a 97.88% segmentation accuracy.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <hr>
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    <strong>Programming:</strong>
+                </div>
+                <div class="position-date">
+                    <p>
+                        C, C++, Python, Java, SQL
+                    </p>
+                </div>
+            </div>
+            
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    <strong>Tools & OS:</strong>
+                </div>
+                <div class="position-date">
+                    <p>
+                        AWS, Jupyter Notebook, Google Colab, Git, Linux, Windows
+                    </p>
+                </div>
+            </div>
+            
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    <strong>Libraries/Frameworks:</strong>
+                </div>
+                <div class="position-date">
+                    <p>
+                        Scikit-learn, Keras, PyTorch, Matplotlib, Seaborn, NumPy, Pandas
+                    </p>
+                </div>
+            </div>
+            
+            <div class="resume-item">
+                <div class="resume-subitem">
+                    <strong>Concepts:</strong>
+                </div>
+                <div class="position-date">
+                    <p>
+                        Object Oriented Programming, Data Science, Deep Learning, Data Analysis, Data Visualization, Data Engineering, Data Structures, Algorithms, Google Suite, Microsoft Office Suite
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div class="section">
+            <p>
+                <a href="{% url 'home' %}">
+                    Click here to go back to home
+                </a>
+            </p>
+        </div>
+
+    </body>
+</html>
